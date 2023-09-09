@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+div {
+    background-color: #180f0fda;
+    color: white;
+    padding: 10px;
+}
+h1 {
+    font-size: 1.5rem;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.currentDay {
+    color: rgb(94, 227, 236);
+}
