@@ -31,3 +31,15 @@ img {
 .currentDay {
     color: rgb(94, 227, 236);
 }
+.github-Url {
+    color: #117efa;
+    text-decoration: none;
+}
+.github-Url:visited {
+    text-decoration: underline;
+}
+.github-Url:hover,
+.github-Url:focus {
+    color: #a8cbf3;
+    text-decoration: underline;
+}
